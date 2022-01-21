@@ -5,7 +5,7 @@ import { GifGrid } from './GifGrid';
 export const GiftExpertApp = () => {
 
     
-    const [categories, setCategories] = useState(['Dragon ball']);
+    const [categories, setCategories] = useState(['Ultimas busquedas']);
 
 
   return <div>

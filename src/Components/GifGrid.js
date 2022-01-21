@@ -2,7 +2,6 @@ import React from 'react';
 import { useFetchGifs } from '../hooks/useFetchGifs';
 import { GifGridItem } from './GifGridItem';
 
-
 export const GifGrid = ( { category } ) => {
     
 
@@ -13,9 +12,7 @@ export const GifGrid = ( { category } ) => {
   <>
       <h3> { category } </h3>
 
-        { loading && <p className='animate__animated animate__flash' >Loading</p> }
-
-        <div className='card-grid animate__animated animate__fadeIn'>
+        <div className=' container card-grid animate__animated animate__fadeIn'>
             {
                 images.map( img => (
                     <GifGridItem 
